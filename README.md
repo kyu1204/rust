@@ -5,7 +5,7 @@
 
 ## 목차
 - ~~[chapter1](https://rinthel.github.io/rust-lang-book-ko/ch01-00-getting-started.html)~~
-- [chapter-2](https://rinthel.github.io/rust-lang-book-ko/ch02-00-guessing-game-tutorial.html)
+- ~~[chapter-2](https://rinthel.github.io/rust-lang-book-ko/ch02-00-guessing-game-tutorial.html)~~
 - [chapter-3](https://rinthel.github.io/rust-lang-book-ko/ch03-00-common-programming-concepts.html)
 - [chapter-4](https://rinthel.github.io/rust-lang-book-ko/ch04-00-understanding-ownership.html)
 - [chapter-5](https://rinthel.github.io/rust-lang-book-ko/ch05-00-structs.html)
