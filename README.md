@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/33680799/185802281-7ea24bf0-15da-428b-aab8-b66316708f9b.png)
 
-# Rust 연스 레포지토리
+# Rust 연습 레포지토리
 > Rust 랑 Rocket 까지 달리기 🚀
 
 ## 목차
@@ -8,8 +8,8 @@
 - ~~[chapter-2](https://rinthel.github.io/rust-lang-book-ko/ch02-00-guessing-game-tutorial.html)~~
 - ~~[chapter-3](https://rinthel.github.io/rust-lang-book-ko/ch03-00-common-programming-concepts.html)~~
 - ~~[chapter-4](https://rinthel.github.io/rust-lang-book-ko/ch04-00-understanding-ownership.html)~~
-- [chapter-5](https://rinthel.github.io/rust-lang-book-ko/ch05-00-structs.html)
-- [chapter-6](https://rinthel.github.io/rust-lang-book-ko/ch06-00-enums.html)
+- ~~[chapter-5](https://rinthel.github.io/rust-lang-book-ko/ch05-00-structs.html)~~
+- ~~[chapter-6](https://rinthel.github.io/rust-lang-book-ko/ch06-00-enums.html)~~
 - [chapter-7](https://rinthel.github.io/rust-lang-book-ko/ch07-00-modules.html)
 - [chapter-8](https://rinthel.github.io/rust-lang-book-ko/ch08-00-common-collections.html)
 - [chapter-9](https://rinthel.github.io/rust-lang-book-ko/ch09-00-error-handling.html)
