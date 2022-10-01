@@ -4,6 +4,7 @@
 > Rust 랑 Rocket 까지 달리기 🚀
 
 ## 목차
+### The Rust Programming Language
 - ~~[chapter1](https://rinthel.github.io/rust-lang-book-ko/ch01-00-getting-started.html)~~
 - ~~[chapter-2](https://rinthel.github.io/rust-lang-book-ko/ch02-00-guessing-game-tutorial.html)~~
 - ~~[chapter-3](https://rinthel.github.io/rust-lang-book-ko/ch03-00-common-programming-concepts.html)~~
@@ -24,3 +25,7 @@
 - [chapter-18](https://rinthel.github.io/rust-lang-book-ko/ch18-00-patterns.html)
 - [chapter-19](https://rinthel.github.io/rust-lang-book-ko/ch19-00-advanced-features.html)
 - [chapter-20](https://rinthel.github.io/rust-lang-book-ko/ch20-00-final-project-a-web-server.html)
+<br>
+<br>
+### MS Rust로 첫 번째 단계 수행 
+- ~~[MS Rust로 첫 번째 단계 수행](https://learn.microsoft.com/ko-kr/training/paths/rust-first-steps/)~~
