@@ -1,0 +1,5 @@
+- name: Format sources
+  run: cargo fmt --all -- --check
+
+- name: Lint sources
+  run: cargo clippy -- -D warnings
