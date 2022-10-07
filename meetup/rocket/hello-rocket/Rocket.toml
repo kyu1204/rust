@@ -1,0 +1,2 @@
+[default.databases.my_db]
+url = "postgres://postgres:example@localhost:5432/postgres"
