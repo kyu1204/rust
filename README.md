@@ -1,7 +1,6 @@
 ![image](https://user-images.githubusercontent.com/33680799/185802281-7ea24bf0-15da-428b-aab8-b66316708f9b.png)
 
 # Rust 연습 레포지토리
-![GitHub Workflow](https://img.shields.io/github/workflow/status/user/repo/action?logo=github&logoColor=white&style=for-the-badge)
 > Rust 랑 Rocket 까지 달리기 🚀
 
 ## 목차
