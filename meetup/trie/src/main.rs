@@ -103,5 +103,6 @@ fn main() {
     trie.insert(String::from("aesargorithm"));
     assert_eq!(trie.starts_with(String::from("aes")), true);
     assert_eq!(trie.search(String::from("aesargorithm")), true);
-    assert_eq!(trie.search(String::from("apple")), false);
+    assert_eq!(trie.search(String::from("asg")), false);
+    assert_eq!(trie.starts_with(String::from("aar")), false);
 }
