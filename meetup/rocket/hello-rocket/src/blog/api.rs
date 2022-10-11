@@ -1,5 +1,4 @@
 use crate::blog::model::blog_posts;
-use crate::blog::model::blog_posts::dsl::*;
 use crate::{BlogPost, DbCore};
 use diesel::{QueryDsl, RunQueryDsl};
 use rocket::serde::json::Json;
@@ -29,7 +28,7 @@ pub async fn get_all_blog_posts(connection: DbCore) -> Json<Vec<BlogPost>> {
 #[get("/<post_id>")]
 pub async fn get_blog_post(connection: DbCore, post_id: i32) -> Json<BlogPost> {
     connection
-        .run(|c| blog_posts::table.filter(id.eq(post_id)).first(c))
+        .run(move |c| blog_posts::table.find(post_id).get_result(c))
         .await
         .map(Json)
         .expect("Failed to fetch blog post")

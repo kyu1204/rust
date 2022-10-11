@@ -1,25 +1,14 @@
 mod blog;
 mod lib;
 
-use blog::api::{create_blog_post, get_all_blog_posts};
+use blog::api::{create_blog_post, get_all_blog_posts, get_blog_post};
 use blog::schema::BlogPost;
 use lib::db::DbCore;
-use rocket::serde::json::Json;
 
 #[macro_use]
 extern crate rocket;
 #[macro_use]
 extern crate diesel;
-
-#[get("/random")]
-fn get_random_blog_post() -> Json<BlogPost> {
-    Json(BlogPost::new(
-        0,
-        String::from("test"),
-        String::from("body"),
-        true,
-    ))
-}
 
 #[get("/")]
 fn index() -> &'static str {
@@ -35,6 +24,6 @@ fn rocket() -> _ {
         .mount("/", routes![index])
         .mount(
             "/blog-posts",
-            routes![get_random_blog_post, create_blog_post, get_all_blog_posts],
+            routes![get_blog_post, create_blog_post, get_all_blog_posts],
         )
 }
